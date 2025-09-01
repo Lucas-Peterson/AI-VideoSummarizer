@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# Full script with chunked (map → reduce) summarization added.
-# Original functions are preserved; only the summary call in main is switched to the new chunked version.
-# All comments are in English.
-
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
 import openai
